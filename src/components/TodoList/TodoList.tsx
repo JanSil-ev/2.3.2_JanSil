@@ -20,7 +20,7 @@ export function TodoList({ addCart }: Props) {
         const json = await ky
           .get('https://res.cloudinary.com/sivadass/raw/upload/v1535817394/json/products.json')
           .json();
-        setProducts(json);
+        setProducts(json as CardsItem[]);
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally {
