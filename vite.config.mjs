@@ -4,6 +4,10 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
+   base: '/2.3.2_JanSil/', // важно для GitHub Pages
+  build: {
+    outDir: 'dist'
+  },
   test: {
     globals: true,
     environment: 'jsdom',
