@@ -1,0 +1,26 @@
+.appShell {
+  background-color: #F3F5FA;
+}
+
+.header {
+  background-color: white;
+  border-bottom: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 24px;
+}
+
+.title {
+  font-weight: 600;
+  color: #333;
+}
+
+.main {
+  padding: 24px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+  padding: 16px;
+}

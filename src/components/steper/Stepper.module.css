@@ -1,0 +1,26 @@
+.stepperContainer {
+  display: inline-block;
+  margin: 8px 0;
+}
+
+.stepperButton {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background-color: #DEE2E6;
+  color: #333;
+}
+
+.stepperButton:hover {
+  background-color: #ffffff;
+}
+
+.stepperBadge {
+
+  font-size: inherit;
+  text-align: center;
+  border: 1px solid #ffffff;
+  color: #333;
+}

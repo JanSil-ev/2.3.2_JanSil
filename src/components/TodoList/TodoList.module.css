@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: #F3F5FA;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #272727;
+}
+
+.flexContainer {
+  gap: 20px;
+  width: 100%;
+
+}
